@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffe6f2;
+}
+
+.navbar {
+  background-color: #ff99cc;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: #ffe6f2;
+}
+
+.home, .registration, .quiz-list, .quiz, .results {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ff99cc;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ff99cc;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 12px 24px; /* Increased padding for better aesthetics */
+  background-color: #ff66b3;
+  color: white;
+  border: none;
+  border-radius: 8px; /* Rounded corners for button */
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.btn:hover {
+  background-color: #ff3399;
+}
+
+.timer {
+  font-size: 18px;
+  margin: 15px 0;
+  color: #ff66b3;
+}
+
+.option {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #ff99cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #ff66b3;
+}
+
+.quiz-link {
+  text-decoration: none;
+  color: #ff66b3;
+  font-size: 18px;
+}
+
+.quiz-link:hover {
+  color: #ff3399;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+/* Global styles */
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* Clean, light background */
+  color: #333; /* Neutral text color for readability */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f9e8f7; /* Light pink background matching the theme */
+  padding: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ff99b3; /* Soft pink color for links */
+  margin-right: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #ff7a99; /* Slightly darker pink on hover */
+}
+
+.logout-button {
+  background-color: #ff99b3; /* Soft pink button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.logout-button:hover {
+  background-color: #ff7a99; /* Darker pink on hover for softness */
+}

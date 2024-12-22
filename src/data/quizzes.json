@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "title": "Web Development Basics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does CSS stand for?",
+          "options": ["Cascading Style Sheets", "Creative Style Sheets", "Computer Style Sheets", "Coded Style Sheets"],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "id": 2,
+          "question": "Which HTML tag is used to define a hyperlink?",
+          "options": ["<a>", "<link>", "<href>", "<hyperlink>"],
+          "answer": "<a>"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Advanced",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which of the following is a higher-order function in JavaScript?",
+          "options": ["map()", "console.log()", "for loop", "alert()"],
+          "answer": "map()"
+        },
+        {
+          "id": 2,
+          "question": "What will be the output of `typeof null` in JavaScript?",
+          "options": ["null", "undefined", "object", "string"],
+          "answer": "object"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "React Hooks",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which hook is used to fetch data from an API?",
+          "options": ["useFetch", "useEffect", "useAxios", "useHttp"],
+          "answer": "useEffect"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of the useEffect hook?",
+          "options": ["To set up event listeners", "To handle asynchronous tasks", "To manage component updates", "To set initial state"],
+          "answer": "To handle asynchronous tasks"
+        }
+      ]
+    }
+  ]
